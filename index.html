@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS- JavaScript Workout</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- JavaScript Codes related -->
+	<div id="text"> Hello World!
+
+		<button type="button" onclick="myfunc()">Change Property</button>
+	</div>
+
+<!-- Marquee element -->
+<div class="marq">	
+<marquee behavior="alternate" direction="left" scrollamount= "2" backgroundColor="cyan">
+		<h2> Sabir Khan </h2>
+</marquee>		
+<marquee behavior="alternate" direction="right" scrollamount= "2" backgroundColor="cyan">		
+		<h4> The Web Developer & Designer </h4>
+</marquee>
+</div>
+
+<!-- TextContent for info -->
+<div class="bg">
+	<h1>Do it Yourself. That's your assignment.</h1>
+	<p>Practice makes everything <br/> easy,fast and time saving.</p>
+</div>
+</body>
+	
+	<script type="text/javascript">
+		function myfunc() {
+
+		document.getElementById('text').innerHTML="Salam Everyone!";
+		document.getElementById('text').style.backgroundColor="green";
+		document.getElementById('text').style.color="#410d0d";
+		document.getElementById('text').style.fontSize="40px";
+		document.getElementById('text').style.fontWeight="bold";
+		alert("Operation Successful");
+
+	}
+
+	</script>
+
+</html>

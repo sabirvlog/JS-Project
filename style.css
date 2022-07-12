@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "arial", sans-serif;
+}
+#text {
+	text-align: center;
+    font-size: 30px;
+    margin: 10px 10px 0;
+    font-weight: bold;
+    background: red;
+    display: flex;
+    height: 420px;
+    line-height: 300px;
+    flex-direction: column;
+    color: #aee919;
+}
+button {
+	width: 250px;
+	padding: 10px;
+    background: black;
+    color: white;
+    margin: 5px auto;
+    font-size: 27px;
+}
+.bg {
+	background: chocolate;
+    text-align: center;
+    padding-top: 20px;
+    margin: 2px 10px 0;
+}
+.bg h1 {
+	color: floralwhite;
+	margin-bottom: 10px;
+}
+.bg p {
+	font-size: 17px;
+	letter-spacing: 2px;
+	padding-bottom: 6px;
+}
+.marq {
+	background: blue;
+    color: orange;
+    margin: 2px 10px 0;
+}
+.marq h4 {
+	margin: 5px 0;
+	color: azure;
+    font-size: 22px;
+}
